@@ -1,0 +1,455 @@
+Total allocated: 116.18 MB (1682349 objects)
+Total retained:  40.00 B (1 objects)
+
+allocated memory by gem
+-----------------------------------
+ 116.18 MB  other
+
+allocated memory by file
+-----------------------------------
+ 116.18 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb
+
+allocated memory by location
+-----------------------------------
+  47.38 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+  14.21 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:33
+   7.94 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:73
+   4.75 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+   4.03 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+   4.00 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:76
+   3.38 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+   3.38 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+   3.09 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:92
+   2.99 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:57
+   2.59 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:23
+   2.59 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:59
+   2.33 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:15
+   2.33 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:16
+   2.33 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:17
+   2.33 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:18
+   1.25 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+   1.24 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+   1.23 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:29
+ 681.07 kB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:70
+ 681.07 kB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:71
+ 680.96 kB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:100
+ 617.24 kB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+ 134.55 kB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:69
+   1.68 kB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:98
+  352.00 B  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:64
+  168.00 B  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:61
+  160.00 B  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:65
+   40.00 B  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:67
+   40.00 B  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:97
+   40.00 B  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:99
+
+allocated memory by class
+-----------------------------------
+  57.20 MB  String
+  36.26 MB  Array
+  19.39 MB  Hash
+   2.08 MB  MatchData
+   1.23 MB  User
+   8.66 kB  File
+   40.00 B  Oj::StreamWriter
+
+allocated objects by gem
+-----------------------------------
+   1682349  other
+
+allocated objects by file
+-----------------------------------
+   1682349  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb
+
+allocated objects by location
+-----------------------------------
+    784569  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+    100004  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:73
+    100000  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:76
+     84569  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:33
+     84569  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+     84569  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+     77155  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:92
+     75561  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+     66073  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+     44684  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:57
+     30877  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+     26248  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:15
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:16
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:17
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:18
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:23
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:29
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:59
+         6  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:100
+         4  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:64
+         4  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:65
+         2  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:98
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:61
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:67
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:69
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:70
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:71
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:97
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:99
+
+allocated objects by class
+-----------------------------------
+   1303413  String
+    235668  Array
+    115434  Hash
+     15431  User
+     12400  MatchData
+         2  File
+         1  Oj::StreamWriter
+
+retained memory by gem
+-----------------------------------
+   40.00 B  other
+
+retained memory by file
+-----------------------------------
+   40.00 B  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb
+
+retained memory by location
+-----------------------------------
+   40.00 B  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:65
+
+retained memory by class
+-----------------------------------
+   40.00 B  String
+
+retained objects by gem
+-----------------------------------
+         1  other
+
+retained objects by file
+-----------------------------------
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb
+
+retained objects by location
+-----------------------------------
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:65
+
+retained objects by class
+-----------------------------------
+         1  String
+
+
+Allocated String Report
+-----------------------------------
+    115431  "user"
+    100000  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:76
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+
+    100001  ","
+    100000  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:100
+
+     84569  "session"
+     84569  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+
+     16350  "0"
+     16290  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+        30  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+        15  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+        15  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+     15431  " "
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:92
+
+     15431  ", "
+     15431  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+     14717  "1"
+     14681  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+        18  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+        18  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+
+     13257  "2"
+     13213  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+        22  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+        22  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+
+     11591  "3"
+     11582  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+         5  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+         4  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+
+      9942  "4"
+      9929  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+         5  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+
+      8512  "5"
+      8505  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+         4  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+         3  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+
+      6943  "6"
+      6929  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+         6  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+
+      5571  "7"
+      5550  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+        11  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+        10  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+
+      4055  "8"
+      4021  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+        17  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+        17  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+
+      2448  "9"
+      2417  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+        16  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+        15  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+
+      1589  "INTERNET EXPLORER 31"
+       520  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       473  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       473  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       118  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         5  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1579  "INTERNET EXPLORER 32"
+       522  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       465  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       465  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       119  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1527  "INTERNET EXPLORER 50"
+       492  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       459  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       459  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       109  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1489  "INTERNET EXPLORER 11"
+       482  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       445  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       445  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       109  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1482  "119"
+       737  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+       714  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+        31  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+
+      1460  "INTERNET EXPLORER 34"
+       462  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       439  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       439  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       107  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+        13  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1458  "INTERNET EXPLORER 16"
+       470  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       437  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       437  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       106  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1458  "INTERNET EXPLORER 40"
+       457  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       457  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       436  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+        98  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+        10  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1456  "INTERNET EXPLORER 15"
+       452  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       444  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       444  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       107  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         9  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1433  "INTERNET EXPLORER 35"
+       466  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       429  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       429  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       100  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         9  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1427  "INTERNET EXPLORER 37"
+       468  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       421  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       421  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       105  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+        12  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1425  "INTERNET EXPLORER 10"
+       456  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       432  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       432  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+        95  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+        10  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1424  "INTERNET EXPLORER 7"
+       450  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       434  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       434  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+        99  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         7  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1421  "INTERNET EXPLORER 1"
+       444  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       428  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       428  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       108  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+        13  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1409  "INTERNET EXPLORER 21"
+       452  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       421  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       421  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       108  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         7  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1405  "INTERNET EXPLORER 3"
+       468  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       409  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       409  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       113  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         6  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1404  "CHROME 13"
+       456  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       456  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       244  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+       240  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1403  "INTERNET EXPLORER 48"
+       444  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       435  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       435  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+        84  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         5  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1401  "CHROME 17"
+       465  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       465  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       254  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       208  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         9  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1396  "INTERNET EXPLORER 5"
+       437  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       437  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       422  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+        94  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         6  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1392  "INTERNET EXPLORER 44"
+       448  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       416  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       416  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       107  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         5  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1390  "117"
+       730  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+       633  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+        27  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+
+      1382  "INTERNET EXPLORER 12"
+       444  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       419  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       419  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+        96  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         4  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1381  "INTERNET EXPLORER 36"
+       430  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       430  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       418  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+        97  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         6  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1380  "INTERNET EXPLORER 46"
+       440  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       421  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       421  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+        90  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1379  "118"
+       697  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
+       637  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:49
+        45  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:47
+
+      1378  "SAFARI 11"
+       484  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       484  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       259  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       135  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+        16  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1377  "INTERNET EXPLORER 23"
+       430  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       414  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       414  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       107  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+        12  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1375  "INTERNET EXPLORER 45"
+       428  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       423  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       423  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+        93  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1374  "INTERNET EXPLORER 19"
+       436  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       420  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       420  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+        91  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         7  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1369  "INTERNET EXPLORER 9"
+       428  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       419  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       419  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+        92  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+        11  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1368  "CHROME 26"
+       442  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       442  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       240  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+       237  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+         7  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1366  "INTERNET EXPLORER 30"
+       427  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       427  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       426  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+        83  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         3  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1362  "INTERNET EXPLORER 26"
+       421  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       421  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       420  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+        93  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         7  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+      1358  "INTERNET EXPLORER 2"
+       448  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:53
+       394  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:82
+       394  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:85
+       114  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:55
+         8  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:51
+
+
+Retained String Report
+-----------------------------------
+         1  "buffer_size"
+         1  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:65
+

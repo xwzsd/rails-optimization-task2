@@ -1,10 +1,14 @@
-# Deoptimized version of homework task
+# frozen_string_literal: true
 
 require 'json'
 require 'pry'
 require 'date'
 require 'minitest/autorun'
 require 'Oj'
+
+DATA_PATH = 'data.txt'.freeze
+RESULT_PATH = 'result.json'.freeze
+SEPARATOR = ','.freeze
 
 class User
   attr_accessor :sessions, :browsers, :dates, :session_times
@@ -20,17 +24,18 @@ class User
 end
 
 def parse_user(fields)
-  parsed_result = {
+  fields = fields.split(SEPARATOR)
+  User.new({
     'id' => fields[1],
     'first_name' => fields[2],
     'last_name' => fields[3],
     'age' => fields[4],
-  }
-  User.new(parsed_result)
+  })
 end
 
 def parse_session(fields)
-  parsed_result = {
+  fields = fields.split(SEPARATOR)
+  {
     'user_id' => fields[1],
     'session_id' => fields[2],
     'browser' => fields[3],
@@ -61,7 +66,7 @@ end
 def work(disable_gc: true)
   GC.disable if disable_gc
 
-  result_file = File.open('result.json', 'w')
+  result_file = File.open(RESULT_PATH, 'w')
   writer = Oj::StreamWriter.new(result_file, {})
   writer.push_object
   writer.push_object('usersStats')
@@ -70,14 +75,12 @@ def work(disable_gc: true)
   uniqueBrowsers = []
   total_sessions = []
 
-  File.foreach('data.txt', chomp: true) do |line|
-    cols = line.split(',')
-
-    if cols[0] == 'user'
-      user = parse_user(cols)
+  File.foreach(DATA_PATH, chomp: true) do |line|
+    if line.include? 'user'
+      user = parse_user(line)
       users << user
     else
-      session = parse_session(cols)
+      session = parse_session(line)
       users.last.sessions << session
       users.last.browsers << session['browser'].upcase
       users.last.dates << session['date']

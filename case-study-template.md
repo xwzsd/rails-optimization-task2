@@ -45,14 +45,35 @@
   -----------------------------------
   47.38 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:74
 
+  allocated memory by class
+  -----------------------------------
+  57.20 MB  String
+
+  allocated objects by file
+  -----------------------------------
+  1682349
+
   START MEMORY USAGE: 31 MB
   FINISH MEMORY USAGE: 131 MB
 
 ### Ваша находка №2
-- какой отчёт показал главную точку роста
-- как вы решили её оптимизировать
-- как изменилась метрика
-- как изменился отчёт профилировщика
+- memory_profiler показал главноую точку роста на строке 74 (cols = line.split(','))
+- вынес строки в константы и зафризил, убрал line.split(',')
+- метрика улучшилась следующим образом, потребление памяти на String#split снизилось незначительно
+  allocated memory by location
+  -----------------------------------
+  37.21 MB  /Users/vitaliytokmianin/work_projects/thinknetica_hw/rails-optimization-task2/task-2.rb:37
+
+  allocated memory by class
+  -----------------------------------
+  47.96 MB  Strin
+
+  allocated objects by file
+  -----------------------------------
+  1451476
+
+  START MEMORY USAGE: 32 MB
+  FINISH MEMORY USAGE: 122 MB
 
 ### Ваша находка №X
 - какой отчёт показал главную точку роста
